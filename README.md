@@ -1,5 +1,5 @@
 # 🧠 AI Real Estate Investment Analyzer  
-### Automated ROI, Cashflow & Risk Modeling Tool for Property Investors
+### Advanced ROI, IRR, Cashflow & Exit Modeling Engine for Property Investors
 
 ---
 
@@ -19,16 +19,17 @@ Investors need **structured, repeatable, data-driven analysis**.
 
 ## 💡 The Solution
 
-**AI Real Estate Investment Analyzer** is a financial modeling system that converts property inputs into clear investment intelligence.
+**AI Real Estate Investment Analyzer** is a financial modeling engine that converts property inputs into clear investment intelligence.
 
 It automates:
 
-✔ ROI & IRR calculations  
+✔ True ROI calculations  
+✔ IRR (Internal Rate of Return)  
 ✔ Cashflow modeling  
-✔ Rental yield analysis  
 ✔ Loan leverage impact  
+✔ Exit modeling with remaining loan balance  
 ✔ Risk sensitivity scenarios  
-✔ Exit & resale projections  
+✔ Net sale proceeds analysis  
 
 This tool transforms raw property numbers into **decision-grade insights**.
 
@@ -38,38 +39,42 @@ This tool transforms raw property numbers into **decision-grade insights**.
 
 | Module | What it Does |
 |--------|--------------|
-| **Profitability Engine** | Calculates ROI, IRR, and net profit |
-| **Cashflow Model** | Projects monthly and yearly net income |
+| **Profitability Engine** | Calculates ROI and IRR based on full investment cycle |
+| **Cashflow Model** | Projects monthly and annual net income |
 | **Financing Simulator** | Shows impact of loan terms and leverage |
-| **Rental Yield Analysis** | Gross & net yield calculations |
-| **Sensitivity Testing** | Vacancy, rent, and interest rate scenarios |
-| **Exit Strategy Modeling** | Resale gain & appreciation forecasting |
-| **Report Export** | Investor-ready Excel output |
+| **Exit Modeling** | Sale price, remaining loan, and net investor proceeds |
+| **Risk Sensitivity** | Vacancy, rent, and interest rate stress tests |
+| **AI Investment Insight** | Automatically interprets investment risk profile |
+| **Visual Dashboard** | Interactive modeling interface |
 
 ---
 
 ## 🖥 Dashboard Preview
 
-*(Add screenshots in `/screenshots` folder after running the app)*
+### Dashboard Overview
+
+![Dashboard Overview](screenshots/dashboard-overview.png)
 
 The dashboard allows users to input:
 
 - Purchase price  
 - Renovation costs  
+- Closing costs  
 - Down payment  
 - Loan interest rate & term  
 - Monthly rent  
 - Vacancy rate  
 - Operating expenses  
 - Expected appreciation  
-- Investment horizon  
+- Investment hold period  
 
 And instantly see:
 
-📈 ROI & Yield  
-💰 Cashflow projections  
-⚖ Risk scenarios  
-🏁 Exit profit
+📈 IRR & ROI  
+💰 Monthly Cashflow  
+🏁 Net Sale Proceeds  
+⚖ Risk Scenarios  
+📊 Cashflow over hold period  
 
 ---
 
@@ -97,11 +102,9 @@ This system is designed to:
 ## ⚙️ Tech Stack
 
 - Python  
-- Pandas / NumPy  
+- NumPy Financial  
 - Streamlit Dashboard  
-- Excel report export  
-
-*(AI insight generation module can be integrated in future versions.)*
+- Financial modeling engine  
 
 ---
 
